@@ -8,6 +8,8 @@ postMerge:
     - "./packages/xstate-graph/test/*.test.ts"
     - "./packages/xstate-immer/test/*.test.ts"
     - "./packages/xstate-inspect/test/*.test.ts"
+    - "./packages/xstate-scxml/test/*.test.ts"
+    - "./packages/xstate-svelte/test/*.test.ts"
 preMerge:
   pattern: 
     - "./packages/core/test/*.test.ts"
@@ -16,6 +18,8 @@ preMerge:
     - "./packages/xstate-graph/test/*.test.ts"
     - "./packages/xstate-immer/test/*.test.ts"
     - "./packages/xstate-inspect/test/*.test.ts"
+    - "./packages/xstate-scxml/test/*.test.ts"
+    - "./packages/xstate-svelte/test/*.test.ts"
 preRun:
      command:
         - yarn install
