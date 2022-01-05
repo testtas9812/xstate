@@ -10,6 +10,7 @@ postMerge:
     - "./packages/xstate-inspect/test/*.test.ts"
     - "./packages/xstate-scxml/test/*.test.ts"
     - "./packages/xstate-svelte/test/*.test.ts"
+    - "./packages/xstate-react/test/*.test.tsx"
 preMerge:
   pattern: 
     - "./packages/core/test/*.test.ts"
@@ -20,6 +21,7 @@ preMerge:
     - "./packages/xstate-inspect/test/*.test.ts"
     - "./packages/xstate-scxml/test/*.test.ts"
     - "./packages/xstate-svelte/test/*.test.ts"
+    - "./packages/xstate-react/test/*.test.tsx"
 preRun:
      command:
         - yarn install
