@@ -2,10 +2,10 @@ framework: jest
 tier: xsmall
 postMerge: 
   pattern: 
-   - "./packages/xstate-vue/test/*.test.ts"
+    - "./packages/xstate-test/test/*.test.ts"
 preMerge:
   pattern: 
-    - "./packages/xstate-vue/test/*.test.ts"
+    - "./packages/xstate-test/test/*.test.ts"
 preRun:
      command:
         - yarn install
