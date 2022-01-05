@@ -10,6 +10,8 @@ postMerge:
     - "./packages/xstate-inspect/test/*.test.ts"
     - "./packages/xstate-scxml/test/*.test.ts"
     - "./packages/xstate-svelte/test/*.test.ts"
+    - "./packages/xstate-test/test/*.test.ts"
+    - "./packages/xstate-vue/test/*.test.ts"
     - "./packages/xstate-react/test/*.test.tsx"
 preMerge:
   pattern: 
@@ -21,6 +23,8 @@ preMerge:
     - "./packages/xstate-inspect/test/*.test.ts"
     - "./packages/xstate-scxml/test/*.test.ts"
     - "./packages/xstate-svelte/test/*.test.ts"
+    - "./packages/xstate-test/test/*.test.ts"
+    - "./packages/xstate-vue/test/*.test.ts"
     - "./packages/xstate-react/test/*.test.tsx"
 preRun:
      command:
