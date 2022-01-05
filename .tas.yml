@@ -1,0 +1,17 @@
+framework: jest
+tier: xsmall
+postMerge: 
+  pattern: 
+    - "./packages/core/test/*.test.ts"
+    - "./packages/xstate-react/test/*.test.tsx" 
+preMerge:
+  pattern: 
+    - "./packages/core/test/*.test.ts"
+    - "./packages/xstate-react/test/*.test.tsx" 
+preRun:
+     command:
+        - yarn install
+postRun:
+     command:
+        - yarn --version
+version: 1.0
