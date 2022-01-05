@@ -4,12 +4,10 @@ postMerge:
   pattern: 
     - "./packages/xstate-test/test/*.test.ts"
     - "./packages/xstate-vue/test/*.test.ts"
-    - "./packages/xstate-react/test/*.test.tsx"
 preMerge:
   pattern: 
     - "./packages/xstate-test/test/*.test.ts"
     - "./packages/xstate-vue/test/*.test.ts"
-    - "./packages/xstate-react/test/*.test.tsx"
 preRun:
      command:
         - yarn install
