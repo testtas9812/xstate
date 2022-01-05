@@ -2,24 +2,14 @@ framework: jest
 tier: xsmall
 postMerge: 
   pattern: 
-    - "./packages/core/test/*.test.ts"
-    - "./packages/xstate-analytics/test/*.test.ts"
-    - "./packages/xstate-fsm/test/*.test.ts"
-    - "./packages/xstate-graph/test/*.test.ts"
-    - "./packages/xstate-immer/test/*.test.ts"
-    - "./packages/xstate-inspect/test/*.test.ts"
-    - "./packages/xstate-scxml/test/*.test.ts"
-    - "./packages/xstate-svelte/test/*.test.ts"
+    - "./packages/xstate-test/test/*.test.ts"
+    - "./packages/xstate-vue/test/*.test.ts"
+    - "./packages/xstate-react/test/*.test.tsx"
 preMerge:
   pattern: 
-    - "./packages/core/test/*.test.ts"
-    - "./packages/xstate-analytics/test/*.test.ts"
-    - "./packages/xstate-fsm/test/*.test.ts"
-    - "./packages/xstate-graph/test/*.test.ts"
-    - "./packages/xstate-immer/test/*.test.ts"
-    - "./packages/xstate-inspect/test/*.test.ts"
-    - "./packages/xstate-scxml/test/*.test.ts"
-    - "./packages/xstate-svelte/test/*.test.ts"
+    - "./packages/xstate-test/test/*.test.ts"
+    - "./packages/xstate-vue/test/*.test.ts"
+    - "./packages/xstate-react/test/*.test.tsx"
 preRun:
      command:
         - yarn install
