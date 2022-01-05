@@ -2,12 +2,12 @@ framework: jest
 tier: xsmall
 postMerge: 
   pattern: 
-    - "./packages/core/test/*.test.ts"
-    - "./packages/xstate-react/test/*.test.tsx" 
+    - "./packages/**/*.test.ts"
+    - "./packages/**/*.test.tsx"
 preMerge:
   pattern: 
-    - "./packages/core/test/*.test.ts"
-    - "./packages/xstate-react/test/*.test.tsx" 
+    - "./packages/**/*.test.ts"
+    - "./packages/**/*.test.tsx"
 preRun:
      command:
         - yarn install
